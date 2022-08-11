@@ -4,9 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "Arima",
+    "email": "arima_p@foxmail.com",
+    "url": "https://www.yuque.com/arima666/note"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^3.0.5"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  }
 }
