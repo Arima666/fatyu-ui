@@ -1,17 +1,17 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@iconify-json/ic': ^1.1.8
   '@vitejs/plugin-vue': ^3.0.1
   '@vitejs/plugin-vue-jsx': ^2.0.0
-  typescript: ^4.7.4
   unocss: ^0.45.6
   vite: ^3.0.5
   vue: ^3.2.37
 
 dependencies:
+  '@iconify-json/ic': registry.npmmirror.com/@iconify-json/ic/1.1.8
   '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/3.0.1_vite@3.0.5+vue@3.2.37
   '@vitejs/plugin-vue-jsx': registry.npmmirror.com/@vitejs/plugin-vue-jsx/2.0.0_vite@3.0.5+vue@3.2.37
-  typescript: registry.npmmirror.com/typescript/4.7.4
   unocss: registry.npmmirror.com/unocss/0.45.6_vite@3.0.5
   vue: registry.npmmirror.com/vue/3.2.37
 
@@ -415,6 +415,14 @@ packages:
     os: [linux]
     requiresBuild: true
     optional: true
+
+  registry.npmmirror.com/@iconify-json/ic/1.1.8:
+    resolution: {integrity: sha512-z7wF/a4wldA+6LVShp8rDCTd3zK/IovKCIdHuiTe5xgxzi9GdnexmZCZbMFol5JqgE1cFDveygTE9wtpfGq3tw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@iconify-json/ic/-/ic-1.1.8.tgz}
+    name: '@iconify-json/ic'
+    version: 1.1.8
+    dependencies:
+      '@iconify/types': registry.npmmirror.com/@iconify/types/1.1.0
+    dev: false
 
   registry.npmmirror.com/@iconify/types/1.1.0:
     resolution: {integrity: sha512-Jh0llaK2LRXQoYsorIH8maClebsnzTcve+7U3rQUSnC11X4jtPnFuyatqFLvMxZ8MLG8dB4zfHsbPfuvxluONw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@iconify/types/-/types-1.1.0.tgz}
@@ -1916,14 +1924,6 @@ packages:
     name: totalist
     version: 3.0.0
     engines: {node: '>=6'}
-    dev: false
-
-  registry.npmmirror.com/typescript/4.7.4:
-    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typescript/-/typescript-4.7.4.tgz}
-    name: typescript
-    version: 4.7.4
-    engines: {node: '>=4.2.0'}
-    hasBin: true
     dev: false
 
   registry.npmmirror.com/ufo/0.8.5:

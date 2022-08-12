@@ -1,7 +1,4 @@
 import { createApp } from "vue";
+import app from "./app";
 
-import FYButton from "./button";
-import SFCButton from "./button/SFCButton.vue";
-import JSXButton from "./button/JSXButton";
-
-createApp(FYButton).mount("#app");
+createApp(app).mount("#app");
