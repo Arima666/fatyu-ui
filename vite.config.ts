@@ -1,5 +1,7 @@
 import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
+import { presetUno, presetAttributify, presetIcons } from "unocss";
+import Unocss from "unocss/vite";
 import { defineConfig } from "vite";
 
 const rollupOptions = {
@@ -13,7 +15,14 @@ const rollupOptions = {
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(), vueJsx()],
+  plugins: [
+    vue(),
+    vueJsx(),
+    // 添加UnoCSS插件
+    Unocss({
+      presets: [presetUno(), presetAttributify(), presetIcons()],
+    }),
+  ],
 
   // 添加库模式配置
   build: {
